@@ -1,0 +1,11 @@
+.buttonTop{
+    color: brown;
+    border-radius: 1rem;
+}
+.boxSerch{
+    border-radius: 1rem;
+    margin-left: 50px;
+    font-size: 15px;
+
+    line-height: 1.55;
+}
