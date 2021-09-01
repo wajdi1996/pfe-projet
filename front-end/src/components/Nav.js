@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Navbar ,Container, Nav,NavDropdown} from "react-bootstrap"
+import { Navbar ,Container, Nav} from "react-bootstrap"
 import { Link } from "react-router-dom"
 export default function NaVigation(){
     return(
@@ -13,6 +13,7 @@ export default function NaVigation(){
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link>  <Link to="/Home">Home</Link> | </Nav.Link>
+      
       <Nav.Link >    <Link to="/AboutUs">About</Link> |</Nav.Link>
       
     </Nav>
