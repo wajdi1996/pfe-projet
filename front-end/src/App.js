@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 import AboutUs from "./components/AboutUs";
 import Navigation from "./components/Nav";
 import Header from "./components/Header";
-import  Naving  from "./components/Nav1";
+import SginIn from "./components/SignIn";
 export default function App() {
       return (
         <Router>
@@ -15,13 +15,14 @@ export default function App() {
         <Header />
 
         <Navigation/>
-        <Naving />
+       
             <Switch>
                    <Route path="/" exact component={Home}/>
                    <Route path="/Home" component={Home}/>
                    <Route path="/aboutUs" exact component={AboutUs}/>
                    <Route path="/footer" exact component={Footer}/>
                    <Route path="/Contact" component={Contact}/>
+                   <Route path="/SginIn" exact component={SginIn}/>
             </Switch>
          
           </div>
